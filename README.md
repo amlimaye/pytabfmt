@@ -20,3 +20,8 @@ Alex & $3.00$ & $3.00$ & $4.00$  \\
 Bertha & $2.00$ & $5.00$ & $3.00$
 \end{tabular}
 ```
+
+Installable with the command (assuming you have pip):
+```
+pip install git+https://github.com/amlimaye/pytabfmt.git
+```
