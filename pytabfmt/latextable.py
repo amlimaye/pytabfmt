@@ -1,6 +1,7 @@
+__all__ = ['LatexTable', ]
+
 import sys
 import io
-import IPython
 
 class LatexTable():
     def __init__(self, columns, fmt_strings):
