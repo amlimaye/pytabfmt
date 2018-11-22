@@ -75,7 +75,12 @@ def format_row(fmts, entries, last_row=False):
 
     formatted_entries = []
     for fs, entry in zip(format_strings, entries):
-        formatted_entries.append(fs % entry + ' & ')
+        # if there is a None, then include a dash in the table to signal that
+        # data has been omitted
+        if entry is None:
+            formatted_entries.append('$-$ & ')
+        else:
+            formatted_entries.append(fs % entry + ' & ')
 
     joined = ''.join(formatted_entries)
 

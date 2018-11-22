@@ -1,0 +1,6 @@
+\begin{tabular}{l|l|l|l}
+Teacher & Kyle & Adi & Vincent \\ \hline 
+DB & $0.00$ & $0.00$ & $5.00$  \\ 
+Swan & $5.00$ & $5.00$ & $0.00$  \\ 
+Bazant & $5.00$ & $5.00$ & $-$  
+\end{tabular}
