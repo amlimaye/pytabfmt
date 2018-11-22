@@ -10,3 +10,13 @@ tbl.add_row(['Bertha', 2.0, 5.0, 3.0])
 tbl.write('my_table.txt')
 tbl.print_out()
 ```
+
+This produces:
+
+```
+\begin{tabular}{l|l|l|l}
+Teacher & Student 1 & Student 2 & Student 3 \\ \hline
+Alex & $3.00$ & $3.00$ & $4.00$  \\
+Bertha & $2.00$ & $5.00$ & $3.00$
+\end{tabular}
+```
